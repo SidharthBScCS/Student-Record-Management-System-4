@@ -56,9 +56,11 @@ Handles all core operations
 - Provides options for user operations
 
 ## Code Explanation
-This project uses a structured package-based design and relies on the Java Collections Framework to manage student records effectively. All student objects are stored in an ArrayList, which provides flexibility for adding, removing, and updating records. For displaying data, the system uses an Iterator, ensuring smooth and safe traversal through the list without errors during iteration.
+This project follows a modular design using Java packages, which separates the application into logical units and makes the system easier to manage. Student information is stored using the Java Collections Framework, specifically an ArrayList, which allows the program to dynamically add, delete, and update records without any fixed size limitations. To display the stored records, the system uses an Iterator, ensuring safe and sequential traversal through the list.
 
-The system also supports arranging student records by academic performance, where students are sorted by marks using a Comparator. This allows easy ranking and comparison among students. To make the data persistent, the program incorporates file handling using BufferedReader and BufferedWriter, enabling student information to be loaded from a file when the system starts and saved back when the user exits. Exception handling is applied throughout to manage invalid inputs and file-related issues, ensuring the application runs reliably and without interruptions.
+Sorting is implemented using a Comparator, allowing students to be arranged based on their marks in descending order. This demonstrates the use of custom comparison logic and shows how collections can be organized efficiently. To maintain data permanently, the system uses file handling, where student records are read from a text file at the beginning and written back to the file when the program exits. BufferedReader and BufferedWriter help ensure smooth and efficient reading and writing of data.
+
+Throughout the program, exception handling is used to prevent crashes due to invalid inputs or file-related issues. By catching errors and handling them gracefully, the application remains stable and user-friendly. Overall, the project demonstrates effective use of packages, collections, sorting algorithms, iterators, file handling, and exception handling, resulting in a structured and reliable student management system.
 
 ## Concepts Covered
 - Packages
