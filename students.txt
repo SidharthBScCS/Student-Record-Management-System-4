@@ -1,0 +1,3 @@
+12,Michael,michael@gmail.com,BSc Quantum Computing,90.0
+3,Sidharth,sk@gmail.com,BSc Computer Science,85.0
+14,David,david@gmail.com,BSc Full Stack Development,95.0
