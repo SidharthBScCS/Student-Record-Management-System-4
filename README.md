@@ -27,13 +27,13 @@ randomly using RandomAccessFile.
 
 
 #### Package:**model**
-- **Student.java**
+**Student.java**
 - Defines student attributes
 - Provides getter for accessing fields
 - Overrides **toString()** to print student details in a formatted manner
 
 #### Package:**manager**
-- **StudentManager.java**
+**StudentManager.java**
 Handles all core operations
 - addStudent()
 - viewStudent() using **Iterator**
@@ -48,7 +48,7 @@ Handles all core operations
 - **BufferedWriter** -> write to file
 
 #### Package:**main**
-- **Main.java**
+**Main.java**
 - Menu-driven interface
 - Takes user input through **Scanner**
 - Loads student at startup of the program
@@ -56,7 +56,9 @@ Handles all core operations
 - Provides options for user operations
 
 ## Code Explanation
+This system uses a package-based structure where each component has a clear responsibility. Student records are stored using the Java Collections Framework, specifically an ArrayList, which allows dynamic storage and easy manipulation of data. Students can be sorted by marks using a Comparator, and the records are displayed using an Iterator for efficient traversal.
 
+The application also includes file handling through BufferedReader and BufferedWriter to save and load student data from a text file, ensuring that records persist even after the program closes. Exception handling is used throughout the system to manage invalid inputs and file errors gracefully, making the program stable and user-friendly.
 
 ## Concepts Covered
 - Packages
