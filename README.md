@@ -56,9 +56,9 @@ Handles all core operations
 - Provides options for user operations
 
 ## Code Explanation
-This system uses a package-based structure where each component has a clear responsibility. Student records are stored using the Java Collections Framework, specifically an ArrayList, which allows dynamic storage and easy manipulation of data. Students can be sorted by marks using a Comparator, and the records are displayed using an Iterator for efficient traversal.
+This project uses a structured package-based design and relies on the Java Collections Framework to manage student records effectively. All student objects are stored in an ArrayList, which provides flexibility for adding, removing, and updating records. For displaying data, the system uses an Iterator, ensuring smooth and safe traversal through the list without errors during iteration.
 
-The application also includes file handling through BufferedReader and BufferedWriter to save and load student data from a text file, ensuring that records persist even after the program closes. Exception handling is used throughout the system to manage invalid inputs and file errors gracefully, making the program stable and user-friendly.
+The system also supports arranging student records by academic performance, where students are sorted by marks using a Comparator. This allows easy ranking and comparison among students. To make the data persistent, the program incorporates file handling using BufferedReader and BufferedWriter, enabling student information to be loaded from a file when the system starts and saved back when the user exits. Exception handling is applied throughout to manage invalid inputs and file-related issues, ensuring the application runs reliably and without interruptions.
 
 ## Concepts Covered
 - Packages
